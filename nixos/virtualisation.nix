@@ -34,10 +34,9 @@
     defaultNetwork.settings.dns_enabled = true;
   };
   environment.variables.DBX_CONTAINER_MANAGER = "podman";
-  users.extraGroups.podman.members = [ "xnm" ];
+  users.extraGroups.podman.members = [ "andy" ];
 
   environment.systemPackages = with pkgs; [
-    nvidia-docker
     nerdctl
 
     # firecracker

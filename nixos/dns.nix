@@ -16,9 +16,6 @@
       enable = true; # FIXME remember to delete /etc/resolv.conf if you disable `resolvconf`
       useLocalResolver = true;
     };
-
-    # If using iwd:
-    wireless.iwd.settings.Network.NameResolvingService = "none";
   };
 
   services.dnscrypt-proxy2 = {

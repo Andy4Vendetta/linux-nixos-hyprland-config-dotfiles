@@ -1,12 +1,6 @@
 [include]
 	path = ~/.config/delta/catppuccin.gitconfig
 
-[includeIf "gitdir:~/projects/"]
-	path = ~/projects/.gitconfig.personal
-
-[includeIf "gitdir:~/work/"]
-	path = ~/work/.gitconfig.work
-
 [core]
 	excludesfile = ~/.gitignore
 	pager = delta

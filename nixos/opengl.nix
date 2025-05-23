@@ -17,8 +17,6 @@
       vaapiVdpau
       libvdpau-va-gl
       mesa
-      nvidia-vaapi-driver
-      nv-codec-headers-12
     ];
     extraPackages32 = with pkgs.pkgsi686Linux; [
       intel-media-driver
